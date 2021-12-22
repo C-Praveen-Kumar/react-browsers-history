@@ -1,0 +1,45 @@
+.history-card {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: #ffffff;
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.time {
+  text-align: left;
+  font-family: roboto;
+  font-size: 10px;
+  margin-right: 35px;
+  color: #64748b;
+}
+.logo {
+  width: 20px;
+  height: 20px;
+  margin-right: 20px;
+}
+.history {
+  font-family: roboto;
+  font-size: 14px;
+  margin-right: 20px;
+  color: #475569;
+}
+.domain-url {
+  font-family: roboto;
+  font-size: 10px;
+  color: #64748b;
+}
+.delete-button {
+  background-color: transparent;
+  border-radius: 0;
+  border-color: transparent;
+  margin-left: auto;
+  cursor: pointer;
+  /* margin-right: 15px; */
+}
+.delete {
+  width: 20px;
+  height: 20px;
+  text-align: right;
+}

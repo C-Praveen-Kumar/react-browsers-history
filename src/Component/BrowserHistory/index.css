@@ -1,0 +1,61 @@
+.browser-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 5px;
+  background-color: #ececec;
+}
+.nav-card {
+  width: 100%;
+  background-color: #3367d6;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+}
+.app-logo {
+  margin-left: 25px;
+  margin-right: 30px;
+  height: 22px;
+  width: 80px;
+}
+.search-icon-card {
+  width: 36px;
+  height: 26px;
+  background-color: #2850a7;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 220px;
+  margin-right: 2px;
+}
+.search-icon {
+  color: #ffffff;
+  width: 15px;
+  height: 15px;
+}
+.search-input {
+  background-color: #2850a7;
+  border-width: 1px;
+  border-color: #6697ff;
+  height: 26px;
+  width: 350px;
+  outline: none;
+  font-size: 12px;
+}
+.browser-card {
+  width: 90%;
+  padding-left: 50px;
+  /* padding: 15px; */
+  top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  position: fixed;
+}
